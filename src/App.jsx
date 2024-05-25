@@ -1,7 +1,12 @@
 import "./App.css";
+import Hero from "./section/Hero/Hero";
 
 function App() {
-  return <>React Responsive Portfolio Website</>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
 
 export default App;
