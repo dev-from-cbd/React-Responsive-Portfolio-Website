@@ -1,7 +1,10 @@
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/oleg.png";
 import themeIcon from "../../assets/sun.svg";
-import twitterLight from "../../assets/twitter-light.svg";
+import twitterIcon from "../../assets/twitter-light.svg";
+import githubIcon from "../../assets/github-light.svg";
+import linkedinIcon from "../../assets/linkedin-light.svg";
+import CV from "../../assets/cv.pdf";
 
 function Hero() {
   return (
@@ -25,10 +28,26 @@ function Hero() {
         </h1>
         <h2>Oleg Grid</h2>
         <span>
+          <a href="https://github.com/dev-from-cbd" target="_blank">
+            <img src={githubIcon} alt="GitHub" />
+          </a>
+          <a href="https://linkedin.com" target="_blank">
+            <img src={linkedinIcon} alt="linkedIn" />
+          </a>
           <a href="https://x.com" target="_blank">
-            <img src={twitterLight} alt="X.Com" />
+            <img src={twitterIcon} alt="X.Com" />
           </a>
         </span>
+        <p>
+          Within just six months of working for your company, you'll see that
+          I've developed numerous valuable solutions that significantly benefit
+          your business!
+        </p>
+        <a href={CV}>
+          <button className="hover" download>
+            Resume
+          </button>
+        </a>
       </div>
     </section>
   );
