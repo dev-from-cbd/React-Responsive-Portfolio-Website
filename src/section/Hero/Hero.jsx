@@ -5,8 +5,11 @@ import twitterIcon from "../../assets/twitter-light.svg";
 import githubIcon from "../../assets/github-light.svg";
 import linkedinIcon from "../../assets/linkedin-light.svg";
 import CV from "../../assets/cv.pdf";
+import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
@@ -19,6 +22,7 @@ function Hero() {
           className={styles.colorMode}
           src={themeIcon}
           alt="Color mode icon"
+          onClick={toggleTheme}
         />
       </div>
       <div className={styles.info}>
