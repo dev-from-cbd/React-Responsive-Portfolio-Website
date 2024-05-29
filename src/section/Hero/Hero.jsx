@@ -14,7 +14,7 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          className={styles["rounded-image"]}
+          className={styles.hero}
           src={heroImg}
           alt="Profile image of the Web Developer"
         />
