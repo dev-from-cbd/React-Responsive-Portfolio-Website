@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+img {
+  width: 20px;
+}
+
+.skillList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  max-width: 26ch;
+}
+
+@media (width >= 800px) {
+  .skillList {
+    max-width: fit-content;
+    gap: 30px;
+    p {
+      font-size: 20px;
+    }
+  }
+
+  hr {
+    /* Consider increasing specificity here if needed */
+    width: 300px;
+  }
+}
