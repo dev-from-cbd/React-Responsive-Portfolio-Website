@@ -15,17 +15,17 @@ function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === "light" ? sun : moon;
+  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
-  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
 
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          className={styles.hero}
           src={heroImg}
-          alt="Profile image of the Web Developer"
+          className={styles.hero}
+          alt="Profile picture of Harris Johnsen"
         />
         <img
           className={styles.colorMode}
@@ -37,29 +37,22 @@ function Hero() {
       <div className={styles.info}>
         <h1>
           Junior
-          <br /> Web Developer
+          <br />
+          Developer
         </h1>
         <h2>Oleg Grid</h2>
         <span>
-          <a
-            href="https://github.com/dev-from-cbd"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={githubIcon} alt="GitHub" />
+          <a href="https://X.Com" target="_blank">
+            <img src={twitterIcon} alt="Twitter icon" />
           </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={linkedinIcon} alt="linkedIn" />
+          <a href="https://github.com/dev-from-cbd" target="_blank">
+            <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-            <img src={twitterIcon} alt="X.Com" />
+          <a href="https://linkedin.com" target="_blank">
+            <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           Within just six months of working for your company, you'll see that
           I've developed numerous valuable solutions that significantly benefit
           your business!
