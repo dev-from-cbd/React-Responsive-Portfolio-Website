@@ -6,7 +6,7 @@ function Skills() {
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
         <span>
-          <img src="Skills" alt="Skills" />
+          <img src={checkMarkIcon} alt="Skills" />
         </span>
       </div>
     </section>
