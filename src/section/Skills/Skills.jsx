@@ -7,6 +7,7 @@ function Skills() {
       <div className={styles.skillList}>
         <span>
           <img src={checkMarkIcon} alt="Skills" />
+          <p>HTML5</p>
         </span>
       </div>
     </section>
