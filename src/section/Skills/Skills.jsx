@@ -1,4 +1,5 @@
 import styles from "./SkillsStyles.module.css";
+import checkMarkIcon from "../../assets/checkmark-light.svg";
 
 function Skills() {
   return (
