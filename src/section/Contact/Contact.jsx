@@ -7,8 +7,9 @@ function Contact() {
       <form action="">
         <div className="formGroup">
           <label htmlFor="name" hidden>
-            label
+            Name
           </label>
+          <input type="text" />
         </div>
       </form>
     </section>
