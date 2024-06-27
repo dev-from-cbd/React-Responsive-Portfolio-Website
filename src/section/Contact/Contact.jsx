@@ -9,7 +9,7 @@ function Contact() {
           <label htmlFor="name" hidden>
             Name
           </label>
-          <input type="text" name="name" />
+          <input type="text" name="name" id="name" />
         </div>
       </form>
     </section>
