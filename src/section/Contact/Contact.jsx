@@ -9,7 +9,13 @@ function Contact() {
           <label htmlFor="name" hidden>
             Name
           </label>
-          <input type="text" name="name" id="name" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="name"
+            required
+          />
         </div>
       </form>
     </section>
