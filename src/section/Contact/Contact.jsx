@@ -17,6 +17,18 @@ function Contact() {
             required
           />
         </div>
+        <div className="formGroup">
+          <label htmlFor="name" hidden>
+            Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="name"
+            required
+          />
+        </div>
       </form>
     </section>
   );
