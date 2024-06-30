@@ -18,14 +18,14 @@ function Contact() {
           />
         </div>
         <div className="formGroup">
-          <label htmlFor="name" hidden>
-            Name
+          <label htmlFor="email" hidden>
+            email
           </label>
           <input
             type="text"
-            name="name"
-            id="name"
-            placeholder="name"
+            email="email"
+            id="email"
+            placeholder="email"
             required
           />
         </div>
