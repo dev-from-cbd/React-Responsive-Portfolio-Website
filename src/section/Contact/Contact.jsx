@@ -19,13 +19,25 @@ function Contact() {
         </div>
         <div className="formGroup">
           <label htmlFor="email" hidden>
-            email
+            Email
           </label>
           <input
             type="text"
             email="email"
             id="email"
-            placeholder="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div className="formGroup">
+          <label htmlFor="message" hidden>
+            Email
+          </label>
+          <input
+            type="text"
+            email="email"
+            id="email"
+            placeholder="Email"
             required
           />
         </div>
