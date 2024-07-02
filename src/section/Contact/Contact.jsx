@@ -31,13 +31,13 @@ function Contact() {
         </div>
         <div className="formGroup">
           <label htmlFor="message" hidden>
-            Email
+            Message
           </label>
           <input
             type="text"
-            email="email"
-            id="email"
-            placeholder="Email"
+            email="message"
+            id="message"
+            placeholder="Message"
             required
           />
         </div>
