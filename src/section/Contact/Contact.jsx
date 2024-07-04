@@ -41,7 +41,7 @@ function Contact() {
             required
           />
         </div>
-        <input />
+        <input type="text" />
       </form>
     </section>
   );
