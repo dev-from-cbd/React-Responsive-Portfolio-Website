@@ -41,7 +41,7 @@ function Contact() {
             required
           />
         </div>
-        <input type="text" />
+        <input className='hover btn' type="submit" />
       </form>
     </section>
   );
