@@ -13,7 +13,7 @@ function Contact() {
             type="text"
             name="name"
             id="name"
-            placeholder="name"
+            placeholder="Name"
             required
           />
         </div>
@@ -41,7 +41,7 @@ function Contact() {
             required
           />
         </div>
-        <input className="hover btn" type="submit" value="submit" />
+        <input className="hover btn" type="submit" value="Submit" />
       </form>
     </section>
   );
